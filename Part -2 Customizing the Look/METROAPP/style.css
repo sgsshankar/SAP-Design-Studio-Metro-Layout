@@ -1,0 +1,136 @@
+@import url(http://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+.container{
+  -webkit-transform:scale(0.9);
+  background:#0f6d39;
+  color:#fff;
+}
+
+.wrap{
+  -webkit-columns: 300px;
+     -moz-columns: 300px;
+          columns: 300px;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+}
+
+.tile{
+  padding: 30px;
+}
+
+.box{
+  overflow:hidden;
+  font-size:13px;
+  padding:10px;
+  display:block;
+  float:left;
+  margin:5px;
+}
+
+.lightgreen{background:#99b433;}
+.green{background:#00a300;}
+.darkgreen{background:#1e7145;}
+.magenta{background:#ff0097;}
+.lightpurple{background:#9f00a7;}
+.purple{background:#7e3878}
+.darkpurple{background:#603cba}
+.darken{background:#1d1d1d}
+.teal{background:#00aba9}
+.lightblue{background:#eff4ff;}
+.blue{background:#2d89ef}
+.darkblue{background:#2b5797}
+.yellow{background:#ffc40d}
+.orange{background:#e3a21a}
+.darkorange{background:#da532c}
+.red{background:#ee1111}
+.darkred{background:#b91d47}
+
+
+.start{
+  font-family: "Open Sans", arial;
+  font-weight:300;
+  float: left;
+  width: 55%;
+  font-size: 40px;
+}
+
+.arrowright {
+background: #2C2C2C;
+font-size: 12px;
+position: relative;
+width: 1em;
+height: 1em;
+margin-left: -0.7em;
+}
+
+.arrowright::before {
+bottom: -0.666em;
+left: 0.8em;
+position: absolute;
+border-left: 1.2em solid #2C2C2C;
+border-top: 1.2em solid rgba(44, 44, 44, 0);
+border-bottom: 1.2em solid rgba(44, 44, 44, 0);
+content: "";
+}
+
+.arrowleft {
+background: #2C2C2C;
+font-size: 12px;
+position: relative;
+width: 1em;
+height: 1em;
+margin-right: -0.7em;
+}
+
+.arrowleft::before {
+bottom: -0.66666666em;
+right: 0.8em;
+position: absolute;
+border-right: 1.2em solid #2C2C2C;
+border-top: 1.2em solid rgba(44, 44, 44, 0);
+border-bottom: 1.2em solid rgba(44, 44, 44, 0);
+content: "";
+}
+
+#zen_PAGEBOOK_1_tf1-paginator {
+  display:none; 
+}
+
+.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd {
+    border-color: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    border:none !important;
+}
+
+.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd {
+    background-color: none !important;
+}
+
+.sapUiBtnS.sapUiBtnNorm {
+    border: none !important;
+}
+
+.sapUiBtnS {
+    outline:none !important;
+}
+
+.sapUiBtnFixedWidth {
+    overflow: visible !important;
+}
+
+.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd {
+	text-decoration: none;
+	color:none;
+}
+
+.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd:hover {
+	text-decoration: none;
+	color:none;
+}
+.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd:link {
+    text-decoration: none;
+	color:none;
+}
