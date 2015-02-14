@@ -1,87 +1,137 @@
 <bi:biapp bi:version="1302" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40">
 	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
 		<bi:property name="THEME" value="sap_platinum"/>
+		<bi:property name="CUSTOM_CSS" value="style.css"/>
 	</bi:component>
 	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
-		<bi:component name="BASEPANEL" type="PANEL_COMPONENT">
-			<bi:property name="LEFT_MARGIN" value="44"/>
-			<bi:property name="TOP_MARGIN" value="44"/>
-			<bi:property name="WIDTH" value="518"/>
-			<bi:property name="HEIGHT" value="396"/>
+		<bi:component name="PANEL_1" type="PANEL_COMPONENT">
+			<bi:property name="LEFT_MARGIN" value="16"/>
+			<bi:property name="TOP_MARGIN" value="32"/>
+			<bi:property name="WIDTH" value="757"/>
+			<bi:property name="HEIGHT" value="503"/>
 			<bi:property name="CSS_CLASS" value="container"/>
-			<bi:component name="HEADING" type="TEXT_COMPONENT">
-				<bi:property name="TEXT" value="Heading"/>
-				<bi:property name="LEFT_MARGIN" value="10"/>
-				<bi:property name="TOP_MARGIN" value="10"/>
-				<bi:property name="CSS_CLASS" value="title"/>
+			<bi:component name="TEXT_1" type="TEXT_COMPONENT">
+				<bi:property name="TEXT" value="Dashboard"/>
+				<bi:property name="LEFT_MARGIN" value="14"/>
+				<bi:property name="TOP_MARGIN" value="19"/>
+				<bi:property name="CSS_CLASS" value="start"/>
+				<bi:property name="WIDTH" value="162"/>
+				<bi:property name="HEIGHT" value="41"/>
 			</bi:component>
-			<bi:component name="WRAP" type="PANEL_COMPONENT">
-				<bi:property name="LEFT_MARGIN" value="10"/>
-				<bi:property name="TOP_MARGIN" value="38"/>
-				<bi:property name="WIDTH" value="497"/>
-				<bi:property name="HEIGHT" value="343"/>
+			<bi:component name="PANEL_2" type="PANEL_COMPONENT">
+				<bi:property name="LEFT_MARGIN" value="12"/>
+				<bi:property name="TOP_MARGIN" value="62"/>
+				<bi:property name="WIDTH" value="724"/>
+				<bi:property name="HEIGHT" value="428"/>
 				<bi:property name="CSS_CLASS" value="wrap"/>
-				<bi:component name="TILE_1" type="PANEL_COMPONENT">
-					<bi:property name="LEFT_MARGIN" value="11"/>
-					<bi:property name="TOP_MARGIN" value="11"/>
-				</bi:component>
-				<bi:component name="TILE_2" type="PANEL_COMPONENT">
-					<bi:property name="LEFT_MARGIN" value="125"/>
-					<bi:property name="TOP_MARGIN" value="11"/>
-				</bi:component>
-				<bi:component name="TILE_3" type="PANEL_COMPONENT">
-					<bi:property name="LEFT_MARGIN" value="240"/>
-					<bi:property name="TOP_MARGIN" value="11"/>
-				</bi:component>
-				<bi:component name="TILE_4" type="PANEL_COMPONENT">
-					<bi:property name="LEFT_MARGIN" value="357"/>
-					<bi:property name="TOP_MARGIN" value="10"/>
-				</bi:component>
-				<bi:component name="HOLDER" type="PAGEBOOK_COMPONENT">
+				<bi:component name="PANEL_3" type="PANEL_COMPONENT">
 					<bi:property name="LEFT_MARGIN" value="9"/>
-					<bi:property name="TOP_MARGIN" value="73"/>
-					<bi:property name="WIDTH" value="480"/>
-					<bi:property name="HEIGHT" value="263"/>
+					<bi:property name="TOP_MARGIN" value="10"/>
+					<bi:property name="CSS_CLASS" value="box green tile"/>
+				</bi:component>
+				<bi:component name="PANEL_4" type="PANEL_COMPONENT">
+					<bi:property name="LEFT_MARGIN" value="149"/>
+					<bi:property name="TOP_MARGIN" value="11"/>
+					<bi:property name="CSS_CLASS" value="box red tile"/>
+				</bi:component>
+				<bi:component name="PANEL_8" type="PANEL_COMPONENT">
+					<bi:property name="LEFT_MARGIN" value="431"/>
+					<bi:property name="TOP_MARGIN" value="14"/>
+					<bi:property name="CSS_CLASS" value="box blue tile"/>
+				</bi:component>
+				<bi:component name="PANEL_9" type="PANEL_COMPONENT">
+					<bi:property name="LEFT_MARGIN" value="290"/>
+					<bi:property name="TOP_MARGIN" value="13"/>
+					<bi:property name="CSS_CLASS" value="box orange  tile"/>
+				</bi:component>
+				<bi:component name="PANEL_11" type="PANEL_COMPONENT">
+					<bi:property name="LEFT_MARGIN" value="570"/>
+					<bi:property name="TOP_MARGIN" value="14"/>
+					<bi:property name="CSS_CLASS" value="box yellow tile"/>
+				</bi:component>
+				<bi:component name="PAGEBOOK_1" type="PAGEBOOK_COMPONENT">
+					<bi:property name="LEFT_MARGIN" value="21"/>
+					<bi:property name="TOP_MARGIN" value="102"/>
+					<bi:property name="TRANSITION_EFFECT" value="SLIDE_IN"/>
+					<bi:property name="PAGEINDICATOR_VISIBILITY" value="X"/>
+					<bi:property name="WIDTH" value="669"/>
+					<bi:property name="CSS_CLASS" value="wrap"/>
+					<bi:property name="HEIGHT" value="316"/>
+					<bi:property name="SELECTED_PAGE_INDEX" value="0"/>
 					<bi:component name="PAGE_1" type="PAGE_COMPONENT">
-						<bi:component name="PANEL_7" type="PANEL_COMPONENT">
-							<bi:property name="LEFT_MARGIN" value="10"/>
-							<bi:property name="TOP_MARGIN" value="25"/>
-							<bi:property name="WIDTH" value="217"/>
-							<bi:property name="HEIGHT" value="228"/>
+						<bi:component name="PANEL_5" type="PANEL_COMPONENT">
+							<bi:property name="CSS_CLASS" value="box lightgreen tile"/>
+							<bi:property name="WIDTH" value="267"/>
+							<bi:property name="HEIGHT" value="246"/>
+							<bi:property name="TOP_MARGIN" value="38"/>
 						</bi:component>
-						<bi:component name="PANEL_8" type="PANEL_COMPONENT">
-							<bi:property name="LEFT_MARGIN" value="250"/>
-							<bi:property name="TOP_MARGIN" value="26"/>
-							<bi:property name="WIDTH" value="212"/>
+						<bi:component name="PANEL_6" type="PANEL_COMPONENT">
+							<bi:property name="LEFT_MARGIN" value="296"/>
+							<bi:property name="TOP_MARGIN" value="37"/>
+							<bi:property name="CSS_CLASS" value="box magenta tile"/>
+							<bi:property name="WIDTH" value="175"/>
+							<bi:property name="HEIGHT" value="91"/>
+						</bi:component>
+						<bi:component name="PANEL_7" type="PANEL_COMPONENT">
+							<bi:property name="LEFT_MARGIN" value="496"/>
+							<bi:property name="TOP_MARGIN" value="auto"/>
+							<bi:property name="WIDTH" value="141"/>
 							<bi:property name="HEIGHT" value="229"/>
+							<bi:property name="CSS_CLASS" value="box teal tile"/>
+							<bi:property name="BOTTOM_MARGIN" value="-11"/>
+						</bi:component>
+						<bi:component name="PANEL_10" type="PANEL_COMPONENT">
+							<bi:property name="LEFT_MARGIN" value="298"/>
+							<bi:property name="TOP_MARGIN" value="157"/>
+							<bi:property name="WIDTH" value="159"/>
+							<bi:property name="HEIGHT" value="92"/>
+							<bi:property name="CSS_CLASS" value="box darkblue tile"/>
+						</bi:component>
+						<bi:component name="PANEL_17" type="PANEL_COMPONENT">
+							<bi:property name="LEFT_MARGIN" value="1163"/>
+							<bi:property name="TOP_MARGIN" value="auto"/>
+							<bi:property name="WIDTH" value="10"/>
+							<bi:property name="HEIGHT" value="10"/>
+							<bi:property name="BOTTOM_MARGIN" value="524"/>
+							<bi:property name="CSS_CLASS" value="arrowright"/>
 						</bi:component>
 						<bi:component name="BUTTON_1" type="BUTTON_COMPONENT">
 							<bi:property name="TEXT" value=""/>
-							<bi:property name="LEFT_MARGIN" value="440"/>
-							<bi:property name="TOP_MARGIN" value="6"/>
-							<bi:property name="WIDTH" value="10"/>
-							<bi:property name="HEIGHT" value="10"/>
+							<bi:property name="LEFT_MARGIN" value="643"/>
+							<bi:property name="TOP_MARGIN" value="-1"/>
+							<bi:property name="CSS_CLASS" value="arrowright"/>
+							<bi:property name="BOTTOM_MARGIN" value="257"/>
+							<bi:property name="HEIGHT" value="auto"/>
+							<bi:property name="WIDTH" value="45"/>
+							<bi:property name="ON_CLICK">
+								<bi:value><![CDATA[PAGEBOOK_1.setSelectedPageIndex(1);]]></bi:value>
+							</bi:property>
 						</bi:component>
 					</bi:component>
 					<bi:component name="PAGE_2" type="PAGE_COMPONENT">
-						<bi:component name="PANEL_9" type="PANEL_COMPONENT">
-							<bi:property name="LEFT_MARGIN" value="10"/>
-							<bi:property name="TOP_MARGIN" value="18"/>
-							<bi:property name="WIDTH" value="208"/>
-							<bi:property name="HEIGHT" value="238"/>
-							<bi:component name="BUTTON_2" type="BUTTON_COMPONENT">
-								<bi:property name="TEXT" value=""/>
-								<bi:property name="LEFT_MARGIN" value="-3"/>
-								<bi:property name="TOP_MARGIN" value="-15"/>
-								<bi:property name="WIDTH" value="10"/>
-								<bi:property name="HEIGHT" value="10"/>
-							</bi:component>
+						<bi:component name="PANEL_12" type="PANEL_COMPONENT">
+							<bi:property name="LEFT_MARGIN" value="8"/>
+							<bi:property name="TOP_MARGIN" value="33"/>
+							<bi:property name="WIDTH" value="258"/>
+							<bi:property name="HEIGHT" value="227"/>
+							<bi:property name="CSS_CLASS" value="box darken tile"/>
 						</bi:component>
-						<bi:component name="PANEL_10" type="PANEL_COMPONENT">
-							<bi:property name="LEFT_MARGIN" value="235"/>
-							<bi:property name="TOP_MARGIN" value="19"/>
-							<bi:property name="WIDTH" value="231"/>
-							<bi:property name="HEIGHT" value="237"/>
+						<bi:component name="PANEL_13" type="PANEL_COMPONENT">
+							<bi:property name="LEFT_MARGIN" value="296"/>
+							<bi:property name="TOP_MARGIN" value="33"/>
+							<bi:property name="WIDTH" value="332"/>
+							<bi:property name="HEIGHT" value="244"/>
+							<bi:property name="CSS_CLASS" value="box darkblue tile"/>
+						</bi:component>
+						<bi:component name="BUTTON_2" type="BUTTON_COMPONENT">
+							<bi:property name="TEXT" value=""/>
+							<bi:property name="LEFT_MARGIN" value="-2"/>
+							<bi:property name="TOP_MARGIN" value="-3"/>
+							<bi:property name="CSS_CLASS" value="arrowleft"/>
+							<bi:property name="WIDTH" value="35"/>
+							<bi:property name="ON_CLICK">
+								<bi:value><![CDATA[PAGEBOOK_1.setSelectedPageIndex(0);]]></bi:value>
+							</bi:property>
 						</bi:component>
 					</bi:component>
 				</bi:component>
